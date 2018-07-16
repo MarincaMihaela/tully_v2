@@ -418,120 +418,6 @@ footer  .social a:hover{
     color: #ffffff;
 }
 
-/*NAVBAR TEST*/
-
-
-/*Mobile & Responsive*/
-@media only screen and (max-width: 1010px) {
-    .background-tr img{
-        position: absolute;
-        top: -29px;
-        right: 0;
-        width: 200px;
-    }
-    img.background-br{
-        position: absolute;
-        top: 0;
-        right: -212px;
-        width: 300px;
-    }
-}
-@media only screen and (max-width: 768px){
-    /*background-shapes*/
-    .background-tr img{
-        top: -120px;
-        right: -55px;
-        width: 250px;
-    }
-    img.background-br{
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 250px;
-        z-index: -1;
-    }
-    .icon-left{
-        margin-top:60px;
-    }
-    .icon{
-        font-size: 30px;
-        display: block;
-        background: #fcfcfc;
-        text-align: center;
-        padding: 20px;
-    }
-    .story-content a{
-        width: 100%;
-    }
-    span.description{
-        letter-spacing: 5px;
-        color: #676DEA;
-    }
-
-
-}
-@media only screen and (max-width: 480px) {
-
-    nav.navbar{
-        background: rgba(205,232,139,0.8);
-    }
-
-    .navbar-brand img{
-        width: 40px;
-    }
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-        font-weight:bold;
-        color:rgba(0,0,0,1);
-    }
-    .navbar-light .navbar-nav .nav-link{
-        font-weight:bold;
-        color:rgba(0,0,0,1);
-    }
-
-    .title{
-        margin-top: 30px;
-    }
-    .title h1{
-        font-size: 20px;
-        width: 100%;
-    }
-    .story-content p{
-        text-align: justify;
-    }
-    .icon{
-        display: inline-block;
-        width: 32%;
-        text-align: center;
-    }
-    .story-content a{
-        margin-bottom: 20px;
-    }
-
-    .card-img-top{
-        width: 100%!important;
-    }
-
-    /*Background shapes*/
-    .background-tr img{
-        top: -30px;
-        right: -30px;
-        width: 120px;
-    }
-
-    .ilustration-part img{
-        width: 100%;
-    }
-
-    .banner-area img.shape2{
-        position: absolute;
-        width: 250px;
-        bottom: -355px;
-        left: -100px;
-        z-index: -1;
-    }
-
-}
-
 /*COMING SOON PAGE*/
 #bg {
     position: fixed;
@@ -759,3 +645,181 @@ footer  .social a:hover{
 }
 
 /***** END CONTACT ******/
+
+
+/**************Mobile & Responsive**************/
+@media only screen and (max-width: 768px){
+    /*background-shapes*/
+    .background-tr img{
+        top: -120px;
+        right: -55px;
+        width: 250px;
+    }
+    img.background-br{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        z-index: -1;
+    }
+    .icon-left{
+        margin-top:60px;
+    }
+    .icon{
+        font-size: 30px;
+        display: block;
+        background: #fcfcfc;
+        text-align: center;
+        padding: 20px;
+    }
+    .story-content a{
+        width: 100%;
+    }
+    span.description{
+        letter-spacing: 5px;
+        color: #676DEA;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    /*** MENU ***/
+    .active-menu #menu .menu-content {
+        width: 100vw;
+    }
+
+    nav.navbar{
+        background: rgba(205,232,139,0.8);
+    }
+
+    .navbar-brand img{
+        width: 40px;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        font-weight:bold;
+        color:rgba(0,0,0,1);
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-weight:bold;
+        color:rgba(0,0,0,1);
+    }
+    /*** END MENU ***/
+
+    /***** Background shapes *****/
+    .background-tr img{
+        top: -30px;
+        right: -30px;
+        width: 120px;
+    }
+
+    .ilustration-part img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-area img.shape2{
+        position: absolute;
+        width: 250px;
+        bottom: -355px;
+        left: -100px;
+        z-index: -1;
+    }
+    /***** END Background shapes *****/
+
+    /*** HOME ***/
+    #home .title h1 {
+        line-height: 1.45;
+        width: 100%;
+        height: 100%;
+        font-size: 23px;
+    }
+
+    .story-content p {
+        width: 100%;
+        height: 100%;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .story-content button{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .faq-area {
+        height: 100%;
+        padding: 10px;
+    }
+
+    #team{
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .team {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .founder {
+        padding: 25px 0 55px 0;
+    }
+
+    .founder img{
+        transform: translate(-33%, 0);
+    }
+
+    footer .title h1.team {
+        margin: 0;
+        padding: 20px;
+    }
+
+    footer h3 {
+        font-size: 23px;
+    }
+
+    footer .title {
+        margin-bottom: 0;
+    }
+
+    .founder.col-sm {
+        width: 33%;
+    }
+
+    footer .social a {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+
+    /*** END HOME ***/
+
+    /*** DESCRIPTION ***/
+    .description p {
+        font-size: 15px;
+    }
+
+    .description button{
+        width: 100%;
+    }
+    /***END DESCRIPTION***/
+
+    /*** CONTACT ***/
+    .jumbotron h3{
+        font-size: 15px;
+    }
+
+    .jumbotron p{
+        font-size: 17px;
+    }
+
+    #mc_embed_signup_scroll input[type="email"], #mc_embed_signup_scroll input[type="submit"]{
+        width: 100% !important;
+    }
+    /*** END CONTACT ***/
+}
+
