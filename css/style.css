@@ -307,7 +307,7 @@ img.background-dr {
     height: 370px;
 }
 
-/*Get in touch*/
+/************ FOOTER ****************/
 footer {
     background-color: #f8f9fc;
     position: relative;
@@ -373,7 +373,56 @@ footer  .social a:hover{
     background: #8f67ea;
     color: #ffffff;
 }
-/*End get in touch*/
+
+/* MAP AREA */
+.pattern .map{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.pattern{
+    position: relative;
+}
+
+.pattern .map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(90deg, #d1d5e2 15%, rgb(209, 213, 226, 0.1), #d1d5e2 85%);
+    width: 100%;
+}
+.pattern .contact-info {
+    margin-left: 5%;
+}
+
+.pattern .map-overlay p{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(63, 61, 85, 0.52);
+}
+
+.pattern .map-overlay hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    margin-left: 0;
+    width: 50px;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+/*********** END FOOTER *************/
 
 /*Subscribe*/
 #subscription{
@@ -759,3 +808,4 @@ footer  .social a:hover{
 }
 
 /***** END CONTACT ******/
+
