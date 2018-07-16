@@ -694,7 +694,7 @@ footer  .social a:hover{
     background: #000;
     display: block;
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 100%;
     border-radius: 9px;
     opacity: 1;
@@ -718,7 +718,7 @@ footer  .social a:hover{
 }
 
 .menu-icon span:nth-child(2) {
-    top: 20px;
+    top: 15px;
 }
 
 .active-menu .menu-icon span:nth-child(1) {
@@ -784,10 +784,6 @@ footer  .social a:hover{
     background: url("../img/m-illustration.png");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#contact .menu-icon span {
-  background: #fdfdfd;
 }
 
 #contact .jumbotron {
