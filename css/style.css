@@ -699,12 +699,18 @@ footer  .social a:hover{
 
 /**************Mobile & Responsive**************/
 @media only screen and (max-width: 768px){
+    #home .title h1{
+        font-size: 50px;
+        width: 100%;
+    }
+
     /*background-shapes*/
     .background-tr img{
         top: -120px;
         right: -55px;
         width: 250px;
     }
+
     img.background-br{
         position: absolute;
         top: 0;
@@ -712,9 +718,11 @@ footer  .social a:hover{
         width: 250px;
         z-index: -1;
     }
+
     .icon-left{
         margin-top:60px;
     }
+
     .icon{
         font-size: 30px;
         display: block;
@@ -722,13 +730,52 @@ footer  .social a:hover{
         text-align: center;
         padding: 20px;
     }
+
     .story-content a{
         width: 100%;
     }
+
     span.description{
         letter-spacing: 5px;
         color: #676DEA;
     }
+
+    .story-content p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .faq-area{
+        height: 100%;
+    }
+
+    #team{
+        margin: 0;
+    }
+
+    .team{
+        margin: 20px;
+    }
+
+    .contact-area .founder {
+        margin: 70px 0;
+        width: 100%;
+    }
+
+    footer .title {
+        margin-bottom: 0;
+    }
+
+    footer .title h1.team{
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+
+    #mc_embed_signup_scroll input[type="email"], #mc_embed_signup_scroll input[type="submit"]{
+        width: 100% !important;
+    }
+
+
 
 
 }
@@ -813,6 +860,9 @@ footer  .social a:hover{
         font-size: 30px;
         margin-bottom: 20px;
     }
+    .contact-area .founder{
+        margin: 0;
+    }
 
     .founder {
         padding: 25px 0 55px 0;
@@ -835,7 +885,7 @@ footer  .social a:hover{
         margin-bottom: 0;
     }
 
-    .founder.col-sm {
+    .social .founder.col-sm {
         width: 33%;
     }
 
@@ -844,6 +894,10 @@ footer  .social a:hover{
         height: 100%;
         font-size: 20px;
         padding: 10px 15px;
+    }
+
+    footer .background-dw {
+        display: none;
     }
 
     /*** END HOME ***/
