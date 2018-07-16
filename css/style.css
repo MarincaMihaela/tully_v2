@@ -221,6 +221,19 @@ img.background-br {
     box-shadow: 5.6px 2.1px 46.2px 13.8px rgba(143, 103, 234, 0.19);
 }
 
+.faq-area button a {
+    font-family: Raleway;
+    font-size: 24.5px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .story-content p{
     width: 975px;
     height: 208px;
@@ -238,6 +251,19 @@ img.background-br {
 .story-content span.description{
     color: #676dea;
     letter-spacing: 5px;
+}
+
+.description button a {
+    font-family: Raleway;
+    font-size: 24.5px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
