@@ -373,48 +373,6 @@ footer  .social a:hover{
     background: #8f67ea;
     color: #ffffff;
 }
-
-.pattern .map{
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-.pattern{
-    position: relative;
-}
-
-.pattern .span4 {
-    position: absolute;
-    top: 108px;
-    left: 10px;
-    background: #fff;
-    border: 1px solid #ccc;
-    padding: 15px;
-    box-shadow: 1px 1px #ccc;
-}
-
-.pattern .span4 p{
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: rgba(63, 61, 85, 0.52);
-}
-
-.pattern .span4 hr{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    margin-left: 0;
-    width: 50px;
-    border-top: 1px solid rgba(0,0,0,.1);
-}
 /*End get in touch*/
 
 /*Subscribe*/
