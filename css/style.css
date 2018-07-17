@@ -204,10 +204,10 @@ img.background-br {
 
 .faq-area {
     width: 100%;
-    height: 594px;
+    height: 100%;
     background-color: #f1f3f9;
     text-align: center;
-    padding-top: 7%;
+    padding: 7%;
 }
 
 .faq-area button{
@@ -220,6 +220,7 @@ img.background-br {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    margin-top: 20px;
     border-radius: 3px;
     background-color: #8f67ea;
     box-shadow: 5.6px 2.1px 46.2px 13.8px rgba(143, 103, 234, 0.19);
@@ -236,6 +237,10 @@ img.background-br {
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+}
+
+.btn-primary:hover{
+    background-color: #613BDC !important;
 }
 
 .story-content p{
@@ -273,8 +278,8 @@ img.background-br {
 
 /* Team section */
 #team {
-    margin-top: 143px;
-    margin-bottom:200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     position: relative;
 }
 
@@ -341,6 +346,10 @@ img.background-br {
     font-weight:500;
 }
 
+.founder ul li a{
+    text-decoration: none;
+}
+
 .founder.col-sm {
     text-align: center;
     z-index: 999;
@@ -367,7 +376,7 @@ footer .title {
 }
 
 footer .title h1.team{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     padding-top: 150px;
 }
 
@@ -377,7 +386,7 @@ footer h3{
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.53;
+    line-height: 1.53;
     letter-spacing: normal;
     text-align: center;
     color: #3f3d55;
@@ -502,7 +511,7 @@ footer  .social a:hover{
     width: 222px;
     height: 60px;
     border-radius: 3px;
-    background-color: #d6df73;
+    background-color: #E1EA8C;
     box-shadow: 5.6px 2.1px 46.2px 13.8px rgba(220, 226, 155, 0.19);
     font-family: Raleway;
     font-size: 24.5px;
@@ -513,6 +522,10 @@ footer  .social a:hover{
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+}
+
+#mc_embed_signup_scroll input[type="submit"]:hover{
+    background-color: #d0dd62;
 }
 
 /*COMING SOON PAGE*/
@@ -587,6 +600,7 @@ footer  .social a:hover{
     line-height: 1.33;
     letter-spacing: normal;
     text-align: center;
+    margin-top: 30px;
     color: #ffffff;
     border-radius: 3px;
     background-color: #8f67ea;
@@ -740,6 +754,8 @@ footer  .social a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 5.6px 2.1px 46.2px 13.8px rgba(178, 103, 234, 0.19);
 }
 
 /***** END CONTACT ******/
@@ -821,6 +837,19 @@ footer  .social a:hover{
 
     #mc_embed_signup_scroll input[type="email"], #mc_embed_signup_scroll input[type="submit"]{
         width: 100% !important;
+    }
+
+    .jumbotron h3 {
+        font-size: 23px;
+    }
+
+    .description p{
+        font-size: 17px;
+    }
+
+    .faq-area button a{
+        width: 100%;
+        font-size: 19px;
     }
 
 
